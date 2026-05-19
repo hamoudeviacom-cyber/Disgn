@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startScript": "node server/index.js",
+    "nodeVersion": "20"
+  }
+}
